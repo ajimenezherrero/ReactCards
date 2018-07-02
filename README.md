@@ -21,6 +21,7 @@ npm start
 
 ```bash
 npm test # run testing
+npm run test:coverage # run coverage test and save 
 ```
 
 ## Technologies / Libraries
@@ -37,6 +38,6 @@ npm test # run testing
 * [ ] Use Image in Cards list view
 * [ ] Implement an image placeholder
 * [ ] Create Empty list view
-* [ ] Write containers/App unit tests
+* [x] Write containers/App unit tests
 * [ ] Write containers/Card unit tests
-* [ ] Write components unit tests
+* [x] Write components unit tests

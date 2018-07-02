@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render component with cards 1`] = `
+<Wrapper>
+  <CardPage
+    cards={
+      Array [
+        Object {
+          "description": "description",
+          "image": "image",
+          "title": "title",
+        },
+      ]
+    }
+  />
+  <WrapperButton>
+    <AddButton
+      onClick={[Function]}
+    >
+      Add
+    </AddButton>
+  </WrapperButton>
+</Wrapper>
+`;
+
+exports[`<App /> should render component with empty cards 1`] = `
+<Wrapper>
+  <Flex
+    alignCenter={true}
+    justifyCenter={true}
+  >
+    <Card />
+  </Flex>
+  <WrapperButton>
+    <AddButton
+      onClick={[Function]}
+    >
+      Add
+    </AddButton>
+  </WrapperButton>
+</Wrapper>
+`;
+
+exports[`<App /> should render component with empty cards and show modal 1`] = `
+<Wrapper>
+  <Flex
+    alignCenter={true}
+    justifyCenter={true}
+  >
+    <Card />
+  </Flex>
+  <Modal>
+    <CardForm
+      onSubmit={[Function]}
+    />
+  </Modal>
+  <WrapperButton>
+    <AddButton
+      onClick={[Function]}
+    >
+      Add
+    </AddButton>
+  </WrapperButton>
+</Wrapper>
+`;

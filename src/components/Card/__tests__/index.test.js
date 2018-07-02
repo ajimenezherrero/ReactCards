@@ -1,11 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Flex from '../index';
 
-const mockComponent = props => <Flex { ...props }/>;
+import Card from '../index';
 
-describe('<Flex />', () => {
+const mockComponent = props => <Card { ...props }/>;
+
+describe('<Card />', () => {
   it('should render component', () => {
     const tree = shallow(mockComponent());
 

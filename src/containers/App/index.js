@@ -17,7 +17,7 @@ import Modal from '../../components/Modal';
 import Wrapper from './Wrapper';
 import WrapperButton from './WrapperButton';
 
-class App extends PureComponent {
+export class App extends PureComponent {
   handleAddButtonClick = () => {
     const { onSetShowAddCards } = this.props;
 

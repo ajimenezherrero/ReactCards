@@ -17,3 +17,6 @@ node_modules
 
 # DS
 .DS_Store
+
+#Coverage
+tests/coverage/
