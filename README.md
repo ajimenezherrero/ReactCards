@@ -21,7 +21,7 @@ npm start
 
 ```bash
 npm test # run testing
-npm run test:coverage # run coverage test and save 
+npm run test:coverage # run coverage test and save
 ```
 
 ## Technologies / Libraries
@@ -39,5 +39,5 @@ npm run test:coverage # run coverage test and save
 * [ ] Implement an image placeholder
 * [ ] Create Empty list view
 * [x] Write containers/App unit tests
-* [ ] Write containers/Card unit tests
+* [x] Write containers/Card unit tests
 * [x] Write components unit tests
