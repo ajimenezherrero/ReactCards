@@ -8,7 +8,7 @@ import WrapperTitle from './WrapperTitle';
 const Card = ({ title, description, image }) => {
   return (
     <Wrapper>
-      <WrapperTitle background={image}>
+      <WrapperTitle image={image}>
         {title}
       </WrapperTitle>
       <WrapperDescription>

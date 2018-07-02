@@ -15,6 +15,9 @@ const WrapperTitle = styled.div`
   align-items: flex-end;
   font-size: 24px;
   flex: 2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
   ${props => getComputedStyles(props)}
 `;

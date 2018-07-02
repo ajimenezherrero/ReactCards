@@ -34,8 +34,9 @@ npm run test:coverage # run coverage test and save
 * [x] Create structure
 * [x] Create 'Add Card' feature
 * [x] Create Cards list view
+* [ ] Update Card in list view
 * [ ] Update Styles of Cards list
-* [ ] Use Image in Cards list view
+* [x] Use Image in Cards list view
 * [ ] Implement an image placeholder
 * [ ] Create Empty list view
 * [x] Write containers/App unit tests
