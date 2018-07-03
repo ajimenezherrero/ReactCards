@@ -12,7 +12,7 @@ jest.mock('../../Card/actions', () => ({
 
 jest.mock('../../Card/Page', () => 'CardPage');
 jest.mock('../../Card/Form', () => 'CardForm');
-jest.mock('../../../components/Buttons/AddButton', () => 'AddButton');
+jest.mock('../../../components/Buttons/CircleButton', () => 'CircleButton');
 jest.mock('../../../components/EmptyViews/Card', () => 'Card');
 jest.mock('../../../components/Flexs/Flex', () => 'Flex');
 jest.mock('../../../components/Modal', () => 'Modal');
@@ -59,7 +59,7 @@ describe('<App />', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  describe('handleAddButtonClick', () => {
+  describe('handleCircleButtonClick', () => {
     it('should call onSetShowAddCards', () => {
       const onSetShowAddCards = jest.fn();
       const props = {
@@ -67,7 +67,7 @@ describe('<App />', () => {
       };
       const instance = shallow(mockComponent(props)).instance();
 
-      instance.handleAddButtonClick();
+      instance.handleCircleButtonClick();
 
       expect(onSetShowAddCards).toHaveBeenCalled();
     });

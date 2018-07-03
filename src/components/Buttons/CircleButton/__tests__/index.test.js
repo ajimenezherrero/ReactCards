@@ -2,11 +2,11 @@ import React from 'react';
 import { shallow } from 'enzyme';
 
 
-import AddButton from '../index';
+import CircleButton from '../index';
 
-const mockComponent = props => <AddButton { ...props }/>;
+const mockComponent = props => <CircleButton { ...props }/>;
 
-describe('<AddButton />', () => {
+describe('<CircleButton />', () => {
   it('should render component', () => {
     const tree = shallow(mockComponent());
 

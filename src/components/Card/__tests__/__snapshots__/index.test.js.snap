@@ -23,14 +23,17 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <styled.div
-          background=""
+          image=""
         >
           
         </styled.div>,
         <styled.div>
           
         </styled.div>,
+        undefined,
       ],
+      "onMouseEnter": [Function],
+      "onMouseLeave": [Function],
     },
     "ref": null,
     "rendered": Array [
@@ -39,8 +42,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "background": "",
           "children": "",
+          "image": "",
         },
         "ref": null,
         "rendered": "",
@@ -57,6 +60,7 @@ ShallowWrapper {
         "rendered": "",
         "type": [Function],
       },
+      undefined,
     ],
     "type": [Function],
   },
@@ -68,14 +72,17 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <styled.div
-            background=""
+            image=""
           >
             
           </styled.div>,
           <styled.div>
             
           </styled.div>,
+          undefined,
         ],
+        "onMouseEnter": [Function],
+        "onMouseLeave": [Function],
       },
       "ref": null,
       "rendered": Array [
@@ -84,8 +91,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "background": "",
             "children": "",
+            "image": "",
           },
           "ref": null,
           "rendered": "",
@@ -102,6 +109,7 @@ ShallowWrapper {
           "rendered": "",
           "type": [Function],
         },
+        undefined,
       ],
       "type": [Function],
     },

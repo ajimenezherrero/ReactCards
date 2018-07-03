@@ -9,7 +9,7 @@ import { setShowAddCards, addCard } from '../Card/actions';
 import CardPage from '../Card/Page';
 import CardForm from '../Card/Form';
 
-import AddButton from '../../components/Buttons/AddButton';
+import CircleButton from '../../components/Buttons/CircleButton';
 import CardsEmptyView from '../../components/EmptyViews/Card';
 import Flex from '../../components/Flexs/Flex';
 import Modal from '../../components/Modal';
@@ -18,7 +18,7 @@ import Wrapper from './Wrapper';
 import WrapperButton from './WrapperButton';
 
 export class App extends PureComponent {
-  handleAddButtonClick = () => {
+  handleCircleButtonClick = () => {
     const { onSetShowAddCards } = this.props;
 
     onSetShowAddCards(true);
@@ -65,9 +65,9 @@ export class App extends PureComponent {
         {this.renderContent()}
         {this.renderModal()}
         <WrapperButton>
-          <AddButton onClick={this.handleAddButtonClick}>
+          <CircleButton onClick={this.handleCircleButtonClick}>
             Add
-          </AddButton>
+          </CircleButton>
         </WrapperButton>
       </Wrapper>
     );

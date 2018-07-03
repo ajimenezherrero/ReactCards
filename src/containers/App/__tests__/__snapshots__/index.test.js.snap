@@ -14,11 +14,11 @@ exports[`<App /> should render component with cards 1`] = `
     }
   />
   <WrapperButton>
-    <AddButton
+    <CircleButton
       onClick={[Function]}
     >
       Add
-    </AddButton>
+    </CircleButton>
   </WrapperButton>
 </Wrapper>
 `;
@@ -32,11 +32,11 @@ exports[`<App /> should render component with empty cards 1`] = `
     <Card />
   </Flex>
   <WrapperButton>
-    <AddButton
+    <CircleButton
       onClick={[Function]}
     >
       Add
-    </AddButton>
+    </CircleButton>
   </WrapperButton>
 </Wrapper>
 `;
@@ -55,11 +55,11 @@ exports[`<App /> should render component with empty cards and show modal 1`] = `
     />
   </Modal>
   <WrapperButton>
-    <AddButton
+    <CircleButton
       onClick={[Function]}
     >
       Add
-    </AddButton>
+    </CircleButton>
   </WrapperButton>
 </Wrapper>
 `;

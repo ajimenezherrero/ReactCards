@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Wrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   min-width: 30%;

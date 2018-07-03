@@ -4,7 +4,11 @@ import { fromJS } from 'immutable';
 import { actionTypes as at } from './constants';
 
 export const initialState = fromJS({
-  cards: [],
+  cards: [{
+    title: 'title',
+    description: 'description',
+    image: 'https://s3-eu-west-1.amazonaws.com/cornerjob-cdn/acquisition/animatori.png'
+  }],
   showAddCards: false
 });
 
